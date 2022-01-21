@@ -1,5 +1,5 @@
 # znix panel loader
- loader meant to be used with znix panel v1
+ loader meant to be used with znix panel v2
  
  dont use this
 
