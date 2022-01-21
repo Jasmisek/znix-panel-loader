@@ -3,6 +3,6 @@
 
 namespace globals {
 	namespace server {
-		std::string domain = _xor_("https://jasmisek.ml").c_str();
+		std::string domain = _xor_("https://example.epic.victory.royale").c_str();
 	}
 }
