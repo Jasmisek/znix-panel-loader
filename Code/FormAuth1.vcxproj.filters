@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui-docking">
+      <UniqueIdentifier>{ada14eee-8d05-4bd6-bc95-630e5c4a089f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{40bcc0e3-9d96-4936-9e5f-e51fa278ebfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{9adddcf2-b36c-4e92-bf06-43247b118070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{3adb3d79-168c-48eb-96b6-b74b5730efba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{0cd43bdb-a281-4aed-9f21-093fab1b44c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="md5\md5.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="md5\md5wrapper.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_demo.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_draw.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_dx9.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\base64.h">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils\hwid.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="json\dist\jsoncpp.cpp" />
+    <ClCompile Include="json\dist\jsoncpp.cpp" />
+    <ClCompile Include="md5\md5.cpp" />
+    <ClCompile Include="md5\md5wrapper.cpp" />
+    <ClCompile Include="md5\md5.cpp" />
+    <ClCompile Include="md5\md5wrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="injector\stub.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md5\md5.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5\md5wrapper.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imconfig.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_dx9.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_internal.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_rectpack.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_textedit.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_truetype.h">
+      <Filter>imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="utils\xor.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\hwid.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="json\dist\json\json.h" />
+    <ClInclude Include="json\dist\json\json-forwards.h" />
+    <ClInclude Include="json\include\json\allocator.h" />
+    <ClInclude Include="json\include\json\assertions.h" />
+    <ClInclude Include="json\include\json\config.h" />
+    <ClInclude Include="json\include\json\forwards.h" />
+    <ClInclude Include="json\include\json\json.h" />
+    <ClInclude Include="json\include\json\json_features.h" />
+    <ClInclude Include="json\include\json\reader.h" />
+    <ClInclude Include="json\include\json\value.h" />
+    <ClInclude Include="json\include\json\version.h" />
+    <ClInclude Include="json\include\json\writer.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="curl\curl.h" />
+    <ClInclude Include="curl\curlver.h" />
+    <ClInclude Include="curl\easy.h" />
+    <ClInclude Include="curl\mprintf.h" />
+    <ClInclude Include="curl\multi.h" />
+    <ClInclude Include="curl\stdcheaders.h" />
+    <ClInclude Include="curl\system.h" />
+    <ClInclude Include="curl\typecheck-gcc.h" />
+    <ClInclude Include="curl\urlapi.h" />
+    <ClInclude Include="json\dist\json\json.h" />
+    <ClInclude Include="json\dist\json\json-forwards.h" />
+    <ClInclude Include="json\include\json\allocator.h" />
+    <ClInclude Include="json\include\json\assertions.h" />
+    <ClInclude Include="json\include\json\config.h" />
+    <ClInclude Include="json\include\json\forwards.h" />
+    <ClInclude Include="json\include\json\json.h" />
+    <ClInclude Include="json\include\json\json_features.h" />
+    <ClInclude Include="json\include\json\reader.h" />
+    <ClInclude Include="json\include\json\value.h" />
+    <ClInclude Include="json\include\json\version.h" />
+    <ClInclude Include="json\include\json\writer.h" />
+    <ClInclude Include="md5\md5.h" />
+    <ClInclude Include="md5\md5wrapper.h" />
+    <ClInclude Include="curl\curl.h" />
+    <ClInclude Include="curl\curlver.h" />
+    <ClInclude Include="curl\easy.h" />
+    <ClInclude Include="curl\mprintf.h" />
+    <ClInclude Include="curl\multi.h" />
+    <ClInclude Include="curl\stdcheaders.h" />
+    <ClInclude Include="curl\system.h" />
+    <ClInclude Include="curl\typecheck-gcc.h" />
+    <ClInclude Include="curl\urlapi.h" />
+    <ClInclude Include="md5\md5.h" />
+    <ClInclude Include="md5\md5wrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="curl\libcurl.lib" />
+  </ItemGroup>
+</Project>
