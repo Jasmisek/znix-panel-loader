@@ -48,7 +48,7 @@ size_t writefunc(void* ptr, size_t size, size_t nmemb, std::string* s) {
 void authentication::login(std::string username, std::string password) {
     auto md5 = new md5wrapper();
     std::string hash = md5->getHashFromFile(GetCurrentDirectory());
-    std::string hwid = hwid::get_hardware_id(""), key = "yes";
+    std::string hwid = hwid::get_hardware_id(""), key = _xor_("yes");
     std::string hwid_hash = Base64::Encode(hwid);
 
     CURL* curl = curl_easy_init();
